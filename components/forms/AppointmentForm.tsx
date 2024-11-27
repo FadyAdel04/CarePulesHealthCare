@@ -31,7 +31,7 @@ export const AppointmentForm = ({
 }: {
   userId: string;
   patientId: string;
-  type: "create" | "schedule" | "cancel";
+  type: "create" | "schedule" | "cancelled";
   appointment?: Appointment;
   setOpen?: Dispatch<SetStateAction<boolean>>;
 }) => {
